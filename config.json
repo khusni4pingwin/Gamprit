@@ -1,0 +1,19 @@
+{
+    "pools":
+        [{
+            "name": "sg-VIPOR",
+            "url": "stratum+tcp://sg.vipor.net:5040",
+            "timeout": 180,
+            "disabled": 0
+        }],
+
+    "user": "RMoW1dcfT2L3oN3Gx2J8ikm9LxpSTTboJ7.ghiska",
+    "pass": "",
+    "algo": "verus",
+    "threads": 8,
+    "cpu-priority": 1,
+    "cpu-affinity": -1,
+    "retry-pause": 10,
+    "api-allow": "192.168.0.0/16",
+    "api-bind": "0.0.0.0:4068"
+}
